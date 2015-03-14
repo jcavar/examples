@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7E81B401AB2113900A54FBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E81B3F1AB2113900A54FBD /* AppDelegate.swift */; };
+		C7E81B421AB2113900A54FBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E81B411AB2113900A54FBD /* ViewController.swift */; };
+		C7E81B451AB2113900A54FBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E81B431AB2113900A54FBD /* Main.storyboard */; };
+		C7E81B471AB2113900A54FBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E81B461AB2113900A54FBD /* Images.xcassets */; };
+		C7E81B4A1AB2113900A54FBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E81B481AB2113900A54FBD /* LaunchScreen.xib */; };
+		C7E81B561AB2113900A54FBD /* LoginTabBarExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E81B551AB2113900A54FBD /* LoginTabBarExampleTests.swift */; };
+		C7E81B601AB2114C00A54FBD /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E81B5F1AB2114C00A54FBD /* Login.storyboard */; };
+		C7E81B621AB211C500A54FBD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E81B611AB211C500A54FBD /* LoginViewController.swift */; };
+		C7E81B641AB211FC00A54FBD /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E81B631AB211FC00A54FBD /* UIViewControllerExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7E81B501AB2113900A54FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E81B321AB2113900A54FBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E81B391AB2113900A54FBD;
+			remoteInfo = LoginTabBarExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7E81B3A1AB2113900A54FBD /* LoginTabBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTabBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E81B3E1AB2113900A54FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E81B3F1AB2113900A54FBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7E81B411AB2113900A54FBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7E81B441AB2113900A54FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7E81B461AB2113900A54FBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7E81B491AB2113900A54FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C7E81B4F1AB2113900A54FBD /* LoginTabBarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginTabBarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E81B541AB2113900A54FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E81B551AB2113900A54FBD /* LoginTabBarExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTabBarExampleTests.swift; sourceTree = "<group>"; };
+		C7E81B5F1AB2114C00A54FBD /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		C7E81B611AB211C500A54FBD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C7E81B631AB211FC00A54FBD /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E81B371AB2113900A54FBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E81B4C1AB2113900A54FBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7E81B311AB2113900A54FBD = {
+			isa = PBXGroup;
+			children = (
+				C7E81B3C1AB2113900A54FBD /* LoginTabBarExample */,
+				C7E81B521AB2113900A54FBD /* LoginTabBarExampleTests */,
+				C7E81B3B1AB2113900A54FBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E81B3B1AB2113900A54FBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E81B3A1AB2113900A54FBD /* LoginTabBarExample.app */,
+				C7E81B4F1AB2113900A54FBD /* LoginTabBarExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7E81B3C1AB2113900A54FBD /* LoginTabBarExample */ = {
+			isa = PBXGroup;
+			children = (
+				C7E81B3F1AB2113900A54FBD /* AppDelegate.swift */,
+				C7E81B631AB211FC00A54FBD /* UIViewControllerExtensions.swift */,
+				C7E81B411AB2113900A54FBD /* ViewController.swift */,
+				C7E81B431AB2113900A54FBD /* Main.storyboard */,
+				C7E81B461AB2113900A54FBD /* Images.xcassets */,
+				C7E81B481AB2113900A54FBD /* LaunchScreen.xib */,
+				C7E81B3D1AB2113900A54FBD /* Supporting Files */,
+				C7E81B5F1AB2114C00A54FBD /* Login.storyboard */,
+				C7E81B611AB211C500A54FBD /* LoginViewController.swift */,
+			);
+			path = LoginTabBarExample;
+			sourceTree = "<group>";
+		};
+		C7E81B3D1AB2113900A54FBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7E81B3E1AB2113900A54FBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7E81B521AB2113900A54FBD /* LoginTabBarExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E81B551AB2113900A54FBD /* LoginTabBarExampleTests.swift */,
+				C7E81B531AB2113900A54FBD /* Supporting Files */,
+			);
+			path = LoginTabBarExampleTests;
+			sourceTree = "<group>";
+		};
+		C7E81B531AB2113900A54FBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7E81B541AB2113900A54FBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E81B391AB2113900A54FBD /* LoginTabBarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E81B591AB2113900A54FBD /* Build configuration list for PBXNativeTarget "LoginTabBarExample" */;
+			buildPhases = (
+				C7E81B361AB2113900A54FBD /* Sources */,
+				C7E81B371AB2113900A54FBD /* Frameworks */,
+				C7E81B381AB2113900A54FBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginTabBarExample;
+			productName = LoginTabBarExample;
+			productReference = C7E81B3A1AB2113900A54FBD /* LoginTabBarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7E81B4E1AB2113900A54FBD /* LoginTabBarExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E81B5C1AB2113900A54FBD /* Build configuration list for PBXNativeTarget "LoginTabBarExampleTests" */;
+			buildPhases = (
+				C7E81B4B1AB2113900A54FBD /* Sources */,
+				C7E81B4C1AB2113900A54FBD /* Frameworks */,
+				C7E81B4D1AB2113900A54FBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E81B511AB2113900A54FBD /* PBXTargetDependency */,
+			);
+			name = LoginTabBarExampleTests;
+			productName = LoginTabBarExampleTests;
+			productReference = C7E81B4F1AB2113900A54FBD /* LoginTabBarExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E81B321AB2113900A54FBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Josip Cavar";
+				TargetAttributes = {
+					C7E81B391AB2113900A54FBD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C7E81B4E1AB2113900A54FBD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C7E81B391AB2113900A54FBD;
+					};
+				};
+			};
+			buildConfigurationList = C7E81B351AB2113900A54FBD /* Build configuration list for PBXProject "LoginTabBarExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E81B311AB2113900A54FBD;
+			productRefGroup = C7E81B3B1AB2113900A54FBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E81B391AB2113900A54FBD /* LoginTabBarExample */,
+				C7E81B4E1AB2113900A54FBD /* LoginTabBarExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E81B381AB2113900A54FBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E81B601AB2114C00A54FBD /* Login.storyboard in Resources */,
+				C7E81B451AB2113900A54FBD /* Main.storyboard in Resources */,
+				C7E81B4A1AB2113900A54FBD /* LaunchScreen.xib in Resources */,
+				C7E81B471AB2113900A54FBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E81B4D1AB2113900A54FBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E81B361AB2113900A54FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E81B641AB211FC00A54FBD /* UIViewControllerExtensions.swift in Sources */,
+				C7E81B621AB211C500A54FBD /* LoginViewController.swift in Sources */,
+				C7E81B421AB2113900A54FBD /* ViewController.swift in Sources */,
+				C7E81B401AB2113900A54FBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E81B4B1AB2113900A54FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E81B561AB2113900A54FBD /* LoginTabBarExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7E81B511AB2113900A54FBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E81B391AB2113900A54FBD /* LoginTabBarExample */;
+			targetProxy = C7E81B501AB2113900A54FBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7E81B431AB2113900A54FBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E81B441AB2113900A54FBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7E81B481AB2113900A54FBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E81B491AB2113900A54FBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7E81B571AB2113900A54FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7E81B581AB2113900A54FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7E81B5A1AB2113900A54FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginTabBarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7E81B5B1AB2113900A54FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginTabBarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7E81B5D1AB2113900A54FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoginTabBarExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginTabBarExample.app/LoginTabBarExample";
+			};
+			name = Debug;
+		};
+		C7E81B5E1AB2113900A54FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoginTabBarExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginTabBarExample.app/LoginTabBarExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E81B351AB2113900A54FBD /* Build configuration list for PBXProject "LoginTabBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E81B571AB2113900A54FBD /* Debug */,
+				C7E81B581AB2113900A54FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E81B591AB2113900A54FBD /* Build configuration list for PBXNativeTarget "LoginTabBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E81B5A1AB2113900A54FBD /* Debug */,
+				C7E81B5B1AB2113900A54FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7E81B5C1AB2113900A54FBD /* Build configuration list for PBXNativeTarget "LoginTabBarExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E81B5D1AB2113900A54FBD /* Debug */,
+				C7E81B5E1AB2113900A54FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E81B321AB2113900A54FBD /* Project object */;
+}

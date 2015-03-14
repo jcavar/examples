@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="g8G-jj-4dB">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ZWN-tV-3Ym">
+            <objects>
+                <navigationController id="g8G-jj-4dB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YAN-1E-fYm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ClT-8U-Jnq" kind="relationship" relationship="rootViewController" id="3qh-qf-6Ac"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="93E-kw-yyk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-53.866666666666667" y="383.39999999999998"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="xO3-XM-sq7">
+            <objects>
+                <viewController id="ClT-8U-Jnq" customClass="LoginViewController" customModule="LoginTabBarExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VzE-xz-yVz"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wu4-hA-QWR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aCi-KZ-mls">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z1r-HF-Hpk">
+                                <rect key="frame" x="16" y="72" width="288" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Dg-I3-1ol">
+                                <rect key="frame" x="16" y="110" width="288" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4g-ix-QWh">
+                                <rect key="frame" x="141" y="148" width="38" height="30"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonLoginTouchUpInside:" destination="ClT-8U-Jnq" eventType="touchUpInside" id="jgV-Ja-d9S"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Dg-I3-1ol" firstAttribute="leading" secondItem="aCi-KZ-mls" secondAttribute="leading" constant="16" id="3kb-tf-B5I"/>
+                            <constraint firstItem="z1r-HF-Hpk" firstAttribute="leading" secondItem="aCi-KZ-mls" secondAttribute="leading" constant="16" id="B35-zb-rUl"/>
+                            <constraint firstAttribute="trailing" secondItem="z1r-HF-Hpk" secondAttribute="trailing" constant="16" id="EGD-na-iTh"/>
+                            <constraint firstItem="p4g-ix-QWh" firstAttribute="top" secondItem="5Dg-I3-1ol" secondAttribute="bottom" constant="8" id="Z7h-yp-ppg"/>
+                            <constraint firstAttribute="trailing" secondItem="5Dg-I3-1ol" secondAttribute="trailing" constant="16" id="bPZ-lg-60e"/>
+                            <constraint firstItem="z1r-HF-Hpk" firstAttribute="top" secondItem="VzE-xz-yVz" secondAttribute="bottom" constant="8" id="ets-Rp-GEm"/>
+                            <constraint firstAttribute="centerX" secondItem="p4g-ix-QWh" secondAttribute="centerX" id="ghX-Ye-0Fc"/>
+                            <constraint firstItem="5Dg-I3-1ol" firstAttribute="top" secondItem="z1r-HF-Hpk" secondAttribute="bottom" constant="8" id="viH-Kd-jGG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4V2-HB-Mo1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oh7-aK-yVI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="363" y="383"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
