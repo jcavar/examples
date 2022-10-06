@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFFC27E28EF10EF002DAB0D /* MacSamplerSandboxPathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFC27D28EF10EF002DAB0D /* MacSamplerSandboxPathApp.swift */; };
+		FAFFC28028EF10EF002DAB0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFFC27F28EF10EF002DAB0D /* ContentView.swift */; };
+		FAFFC28228EF10F1002DAB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFFC28128EF10F1002DAB0D /* Assets.xcassets */; };
+		FAFFC28528EF10F1002DAB0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFFC28428EF10F1002DAB0D /* Preview Assets.xcassets */; };
+		FAFFC28D28EF11A5002DAB0D /* Default Sine.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = FAFFC28C28EF11A5002DAB0D /* Default Sine.aupreset */; };
+		FAFFC29328EF145B002DAB0D /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAFFC29228EF145B002DAB0D /* click.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAFFC27A28EF10EF002DAB0D /* MacSamplerSandboxPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSamplerSandboxPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFFC27D28EF10EF002DAB0D /* MacSamplerSandboxPathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSamplerSandboxPathApp.swift; sourceTree = "<group>"; };
+		FAFFC27F28EF10EF002DAB0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAFFC28128EF10F1002DAB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFFC28428EF10F1002DAB0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAFFC28628EF10F1002DAB0D /* MacSamplerSandboxPath.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacSamplerSandboxPath.entitlements; sourceTree = "<group>"; };
+		FAFFC28C28EF11A5002DAB0D /* Default Sine.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Default Sine.aupreset"; sourceTree = "<group>"; };
+		FAFFC29228EF145B002DAB0D /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFFC27728EF10EF002DAB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFFC27128EF10EF002DAB0D = {
+			isa = PBXGroup;
+			children = (
+				FAFFC27C28EF10EF002DAB0D /* MacSamplerSandboxPath */,
+				FAFFC27B28EF10EF002DAB0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFFC27B28EF10EF002DAB0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFFC27A28EF10EF002DAB0D /* MacSamplerSandboxPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFFC27C28EF10EF002DAB0D /* MacSamplerSandboxPath */ = {
+			isa = PBXGroup;
+			children = (
+				FAFFC29228EF145B002DAB0D /* click.wav */,
+				FAFFC28C28EF11A5002DAB0D /* Default Sine.aupreset */,
+				FAFFC27D28EF10EF002DAB0D /* MacSamplerSandboxPathApp.swift */,
+				FAFFC27F28EF10EF002DAB0D /* ContentView.swift */,
+				FAFFC28128EF10F1002DAB0D /* Assets.xcassets */,
+				FAFFC28628EF10F1002DAB0D /* MacSamplerSandboxPath.entitlements */,
+				FAFFC28328EF10F1002DAB0D /* Preview Content */,
+			);
+			path = MacSamplerSandboxPath;
+			sourceTree = "<group>";
+		};
+		FAFFC28328EF10F1002DAB0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAFFC28428EF10F1002DAB0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFFC27928EF10EF002DAB0D /* MacSamplerSandboxPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFFC28928EF10F1002DAB0D /* Build configuration list for PBXNativeTarget "MacSamplerSandboxPath" */;
+			buildPhases = (
+				FAFFC27628EF10EF002DAB0D /* Sources */,
+				FAFFC27728EF10EF002DAB0D /* Frameworks */,
+				FAFFC27828EF10EF002DAB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacSamplerSandboxPath;
+			productName = MacSamplerSandboxPath;
+			productReference = FAFFC27A28EF10EF002DAB0D /* MacSamplerSandboxPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFFC27228EF10EF002DAB0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FAFFC27928EF10EF002DAB0D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FAFFC27528EF10EF002DAB0D /* Build configuration list for PBXProject "MacSamplerSandboxPath" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFFC27128EF10EF002DAB0D;
+			productRefGroup = FAFFC27B28EF10EF002DAB0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFFC27928EF10EF002DAB0D /* MacSamplerSandboxPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFFC27828EF10EF002DAB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFFC28528EF10F1002DAB0D /* Preview Assets.xcassets in Resources */,
+				FAFFC28D28EF11A5002DAB0D /* Default Sine.aupreset in Resources */,
+				FAFFC29328EF145B002DAB0D /* click.wav in Resources */,
+				FAFFC28228EF10F1002DAB0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFFC27628EF10EF002DAB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFFC28028EF10EF002DAB0D /* ContentView.swift in Sources */,
+				FAFFC27E28EF10EF002DAB0D /* MacSamplerSandboxPathApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAFFC28728EF10F1002DAB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAFFC28828EF10F1002DAB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FAFFC28A28EF10F1002DAB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacSamplerSandboxPath/MacSamplerSandboxPath.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacSamplerSandboxPath/Preview Content\"";
+				DEVELOPMENT_TEAM = 424L75GG87;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josipcavar.MacSamplerSandboxPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FAFFC28B28EF10F1002DAB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacSamplerSandboxPath/MacSamplerSandboxPath.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacSamplerSandboxPath/Preview Content\"";
+				DEVELOPMENT_TEAM = 424L75GG87;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josipcavar.MacSamplerSandboxPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFFC27528EF10EF002DAB0D /* Build configuration list for PBXProject "MacSamplerSandboxPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFFC28728EF10F1002DAB0D /* Debug */,
+				FAFFC28828EF10F1002DAB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFFC28928EF10F1002DAB0D /* Build configuration list for PBXNativeTarget "MacSamplerSandboxPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFFC28A28EF10F1002DAB0D /* Debug */,
+				FAFFC28B28EF10F1002DAB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFFC27228EF10EF002DAB0D /* Project object */;
+}
