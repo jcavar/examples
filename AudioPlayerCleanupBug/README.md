@@ -1,3 +1,3 @@
-# Sampler Cleanup Bug
+# Audio Player Cleanup Bug
 
-A demonstration of how sampler gets clean up when audio engine chain is reconnected.
+A demonstration of how audio player gets stopped when connecting nodes to it.
