@@ -25,7 +25,7 @@ final class AddToEmptyMixerBugTests: XCTestCase {
     }
 
     // This fails with:
-    // player started when in a disconnected state (com.apple.coreaudio.avfaudio)
+    // `player started when in a disconnected state (com.apple.coreaudio.avfaudio)`
     // Printing engine's underlying graph also shows that graph is not wired correctly
     func testAddingToSubmixerWorks() throws {
         engine.connect(subMixer, to: mixer, format: nil)
