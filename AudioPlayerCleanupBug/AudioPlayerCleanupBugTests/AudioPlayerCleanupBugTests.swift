@@ -30,4 +30,29 @@ class AudioPlayerCleanupBugTests: XCTestCase {
         engine.connect(player, to: reverb, format: nil)
         XCTAssertTrue(player.isPlaying)
     }
+
+    func testPlayerNotStoppedWhenConnectingEffectUsingMultipleConnectionPoints() {
+        engine.connect(player, to: engine.mainMixerNode, format: nil)
+        try! engine.start()
+        player.play()
+        XCTAssertTrue(player.isPlaying)
+
+        let reverb = AVAudioUnitReverb()
+        engine.attach(reverb)
+        engine.connect(reverb, to: engine.mainMixerNode, format: nil)
+        // It is still working here
+        XCTAssertTrue(player.isPlaying)
+
+        // This stops the player
+        engine.connect(
+            player,
+            to: [
+                AVAudioConnectionPoint(node: engine.mainMixerNode, bus: 0),
+                AVAudioConnectionPoint(node: reverb, bus: 0),
+            ],
+            fromBus: 0,
+            format: nil
+        )
+        XCTAssertTrue(player.isPlaying)
+    }
 }
